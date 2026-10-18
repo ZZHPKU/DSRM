@@ -1,0 +1,10 @@
+{
+  "python": "3.12.13",
+  "torch": "2.13.0+cu130",
+  "device": "cuda",
+  "cuda": "13.0",
+  "threads": 2,
+  "hardware": "NVIDIA GeForce RTX 4070 SUPER",
+  "tf32": false,
+  "amp": false
+}

@@ -1,0 +1,27 @@
+# Python environments, caches and builds.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mpl-cache/
+*.egg-info/
+.venv/
+build/
+dist/
+.coverage
+htmlcov/
+
+# New experiments and local verification outputs.
+runs/
+/new_outputs/
+/tmp/
+*.pt
+*.pth
+*.ckpt
+*.log
+*.lock
+
+# Publish the final paper records; other experiments stay local.
+/results/*
+!/results/final/
+!/results/final/runs/

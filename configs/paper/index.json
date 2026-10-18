@@ -1,0 +1,830 @@
+[
+  {
+    "name": "A_g2_uniform_c0.5_rho0.15_current",
+    "family": "gaussian",
+    "method": "BR-CURRENT",
+    "path": "gaussian/A_g2_uniform_c0.5_rho0.15_current.json"
+  },
+  {
+    "name": "A_g2_tuned_c0.5_rho0.15_current",
+    "family": "gaussian",
+    "method": "BR-CURRENT",
+    "path": "gaussian/A_g2_tuned_c0.5_rho0.15_current.json"
+  },
+  {
+    "name": "A_f1_tuned_c0.5_rho0.15_current",
+    "family": "gaussian",
+    "method": "F1-CURRENT",
+    "path": "gaussian/A_f1_tuned_c0.5_rho0.15_current.json"
+  },
+  {
+    "name": "A_g2_uniform_c0.5_rho0.15_next",
+    "family": "gaussian",
+    "method": "BR-NEXT",
+    "path": "gaussian/A_g2_uniform_c0.5_rho0.15_next.json"
+  },
+  {
+    "name": "A_g2_tuned_c0.5_rho0.15_next",
+    "family": "gaussian",
+    "method": "BR-NEXT",
+    "path": "gaussian/A_g2_tuned_c0.5_rho0.15_next.json"
+  },
+  {
+    "name": "A_f1_tuned_c0.5_rho0.15_next",
+    "family": "gaussian",
+    "method": "F1-NEXT",
+    "path": "gaussian/A_f1_tuned_c0.5_rho0.15_next.json"
+  },
+  {
+    "name": "A_g2_tuned_c0.5_rho0.05_current",
+    "family": "gaussian",
+    "method": "BR-CURRENT",
+    "path": "gaussian/A_g2_tuned_c0.5_rho0.05_current.json"
+  },
+  {
+    "name": "A_g2_tuned_c0.5_rho0.05_next",
+    "family": "gaussian",
+    "method": "BR-NEXT",
+    "path": "gaussian/A_g2_tuned_c0.5_rho0.05_next.json"
+  },
+  {
+    "name": "A_g2_tuned_c0.75_rho0.15_current",
+    "family": "gaussian",
+    "method": "BR-CURRENT",
+    "path": "gaussian/A_g2_tuned_c0.75_rho0.15_current.json"
+  },
+  {
+    "name": "A_g2_tuned_c0.75_rho0.15_next",
+    "family": "gaussian",
+    "method": "BR-NEXT",
+    "path": "gaussian/A_g2_tuned_c0.75_rho0.15_next.json"
+  },
+  {
+    "name": "A_g2_tuned_c1.25_rho0.15_current",
+    "family": "gaussian",
+    "method": "BR-CURRENT",
+    "path": "gaussian/A_g2_tuned_c1.25_rho0.15_current.json"
+  },
+  {
+    "name": "A_g2_tuned_c1.25_rho0.15_next",
+    "family": "gaussian",
+    "method": "BR-NEXT",
+    "path": "gaussian/A_g2_tuned_c1.25_rho0.15_next.json"
+  },
+  {
+    "name": "B_g2_uniform_c0.5_rho0.15_current",
+    "family": "gaussian",
+    "method": "BR-CURRENT",
+    "path": "gaussian/B_g2_uniform_c0.5_rho0.15_current.json"
+  },
+  {
+    "name": "B_g2_tuned_c0.5_rho0.15_current",
+    "family": "gaussian",
+    "method": "BR-CURRENT",
+    "path": "gaussian/B_g2_tuned_c0.5_rho0.15_current.json"
+  },
+  {
+    "name": "B_f1_tuned_c0.5_rho0.15_current",
+    "family": "gaussian",
+    "method": "F1-CURRENT",
+    "path": "gaussian/B_f1_tuned_c0.5_rho0.15_current.json"
+  },
+  {
+    "name": "B_g2_uniform_c0.5_rho0.15_next",
+    "family": "gaussian",
+    "method": "BR-NEXT",
+    "path": "gaussian/B_g2_uniform_c0.5_rho0.15_next.json"
+  },
+  {
+    "name": "B_g2_tuned_c0.5_rho0.15_next",
+    "family": "gaussian",
+    "method": "BR-NEXT",
+    "path": "gaussian/B_g2_tuned_c0.5_rho0.15_next.json"
+  },
+  {
+    "name": "B_f1_tuned_c0.5_rho0.15_next",
+    "family": "gaussian",
+    "method": "F1-NEXT",
+    "path": "gaussian/B_f1_tuned_c0.5_rho0.15_next.json"
+  },
+  {
+    "name": "B_g2_tuned_c0.5_rho0.05_current",
+    "family": "gaussian",
+    "method": "BR-CURRENT",
+    "path": "gaussian/B_g2_tuned_c0.5_rho0.05_current.json"
+  },
+  {
+    "name": "B_g2_tuned_c0.5_rho0.05_next",
+    "family": "gaussian",
+    "method": "BR-NEXT",
+    "path": "gaussian/B_g2_tuned_c0.5_rho0.05_next.json"
+  },
+  {
+    "name": "B_g2_tuned_c0.75_rho0.15_current",
+    "family": "gaussian",
+    "method": "BR-CURRENT",
+    "path": "gaussian/B_g2_tuned_c0.75_rho0.15_current.json"
+  },
+  {
+    "name": "B_g2_tuned_c0.75_rho0.15_next",
+    "family": "gaussian",
+    "method": "BR-NEXT",
+    "path": "gaussian/B_g2_tuned_c0.75_rho0.15_next.json"
+  },
+  {
+    "name": "B_g2_tuned_c1.25_rho0.15_current",
+    "family": "gaussian",
+    "method": "BR-CURRENT",
+    "path": "gaussian/B_g2_tuned_c1.25_rho0.15_current.json"
+  },
+  {
+    "name": "B_g2_tuned_c1.25_rho0.15_next",
+    "family": "gaussian",
+    "method": "BR-NEXT",
+    "path": "gaussian/B_g2_tuned_c1.25_rho0.15_next.json"
+  },
+  {
+    "name": "C_g2_uniform_c0.5_rho0.15_current",
+    "family": "gaussian",
+    "method": "BR-CURRENT",
+    "path": "gaussian/C_g2_uniform_c0.5_rho0.15_current.json"
+  },
+  {
+    "name": "C_g2_tuned_c0.5_rho0.15_current",
+    "family": "gaussian",
+    "method": "BR-CURRENT",
+    "path": "gaussian/C_g2_tuned_c0.5_rho0.15_current.json"
+  },
+  {
+    "name": "C_f1_tuned_c0.5_rho0.15_current",
+    "family": "gaussian",
+    "method": "F1-CURRENT",
+    "path": "gaussian/C_f1_tuned_c0.5_rho0.15_current.json"
+  },
+  {
+    "name": "C_g2_uniform_c0.5_rho0.15_next",
+    "family": "gaussian",
+    "method": "BR-NEXT",
+    "path": "gaussian/C_g2_uniform_c0.5_rho0.15_next.json"
+  },
+  {
+    "name": "C_g2_tuned_c0.5_rho0.15_next",
+    "family": "gaussian",
+    "method": "BR-NEXT",
+    "path": "gaussian/C_g2_tuned_c0.5_rho0.15_next.json"
+  },
+  {
+    "name": "C_f1_tuned_c0.5_rho0.15_next",
+    "family": "gaussian",
+    "method": "F1-NEXT",
+    "path": "gaussian/C_f1_tuned_c0.5_rho0.15_next.json"
+  },
+  {
+    "name": "C_g2_tuned_c0.5_rho0.05_current",
+    "family": "gaussian",
+    "method": "BR-CURRENT",
+    "path": "gaussian/C_g2_tuned_c0.5_rho0.05_current.json"
+  },
+  {
+    "name": "C_g2_tuned_c0.5_rho0.05_next",
+    "family": "gaussian",
+    "method": "BR-NEXT",
+    "path": "gaussian/C_g2_tuned_c0.5_rho0.05_next.json"
+  },
+  {
+    "name": "C_g2_tuned_c0.75_rho0.15_current",
+    "family": "gaussian",
+    "method": "BR-CURRENT",
+    "path": "gaussian/C_g2_tuned_c0.75_rho0.15_current.json"
+  },
+  {
+    "name": "C_g2_tuned_c0.75_rho0.15_next",
+    "family": "gaussian",
+    "method": "BR-NEXT",
+    "path": "gaussian/C_g2_tuned_c0.75_rho0.15_next.json"
+  },
+  {
+    "name": "C_g2_tuned_c1.25_rho0.15_current",
+    "family": "gaussian",
+    "method": "BR-CURRENT",
+    "path": "gaussian/C_g2_tuned_c1.25_rho0.15_current.json"
+  },
+  {
+    "name": "C_g2_tuned_c1.25_rho0.15_next",
+    "family": "gaussian",
+    "method": "BR-NEXT",
+    "path": "gaussian/C_g2_tuned_c1.25_rho0.15_next.json"
+  },
+  {
+    "name": "A_pinn_c0.5_rho0.05",
+    "family": "gaussian",
+    "method": "PINN",
+    "path": "gaussian/A_pinn_c0.5_rho0.05.json"
+  },
+  {
+    "name": "A_g-current_c0.5_rho0.05",
+    "family": "gaussian",
+    "method": "G-CURRENT",
+    "path": "gaussian/A_g-current_c0.5_rho0.05.json"
+  },
+  {
+    "name": "A_g-next_c0.5_rho0.05",
+    "family": "gaussian",
+    "method": "G-NEXT",
+    "path": "gaussian/A_g-next_c0.5_rho0.05.json"
+  },
+  {
+    "name": "A_pinn_c0.5_rho0.15",
+    "family": "gaussian",
+    "method": "PINN",
+    "path": "gaussian/A_pinn_c0.5_rho0.15.json"
+  },
+  {
+    "name": "A_g-current_c0.5_rho0.15",
+    "family": "gaussian",
+    "method": "G-CURRENT",
+    "path": "gaussian/A_g-current_c0.5_rho0.15.json"
+  },
+  {
+    "name": "A_g-next_c0.5_rho0.15",
+    "family": "gaussian",
+    "method": "G-NEXT",
+    "path": "gaussian/A_g-next_c0.5_rho0.15.json"
+  },
+  {
+    "name": "A_pinn_c0.75_rho0.15",
+    "family": "gaussian",
+    "method": "PINN",
+    "path": "gaussian/A_pinn_c0.75_rho0.15.json"
+  },
+  {
+    "name": "A_g-current_c0.75_rho0.15",
+    "family": "gaussian",
+    "method": "G-CURRENT",
+    "path": "gaussian/A_g-current_c0.75_rho0.15.json"
+  },
+  {
+    "name": "A_g-next_c0.75_rho0.15",
+    "family": "gaussian",
+    "method": "G-NEXT",
+    "path": "gaussian/A_g-next_c0.75_rho0.15.json"
+  },
+  {
+    "name": "A_pinn_c1.25_rho0.15",
+    "family": "gaussian",
+    "method": "PINN",
+    "path": "gaussian/A_pinn_c1.25_rho0.15.json"
+  },
+  {
+    "name": "A_g-current_c1.25_rho0.15",
+    "family": "gaussian",
+    "method": "G-CURRENT",
+    "path": "gaussian/A_g-current_c1.25_rho0.15.json"
+  },
+  {
+    "name": "A_g-next_c1.25_rho0.15",
+    "family": "gaussian",
+    "method": "G-NEXT",
+    "path": "gaussian/A_g-next_c1.25_rho0.15.json"
+  },
+  {
+    "name": "B_pinn_c0.5_rho0.05",
+    "family": "gaussian",
+    "method": "PINN",
+    "path": "gaussian/B_pinn_c0.5_rho0.05.json"
+  },
+  {
+    "name": "B_g-current_c0.5_rho0.05",
+    "family": "gaussian",
+    "method": "G-CURRENT",
+    "path": "gaussian/B_g-current_c0.5_rho0.05.json"
+  },
+  {
+    "name": "B_g-next_c0.5_rho0.05",
+    "family": "gaussian",
+    "method": "G-NEXT",
+    "path": "gaussian/B_g-next_c0.5_rho0.05.json"
+  },
+  {
+    "name": "B_pinn_c0.5_rho0.15",
+    "family": "gaussian",
+    "method": "PINN",
+    "path": "gaussian/B_pinn_c0.5_rho0.15.json"
+  },
+  {
+    "name": "B_g-current_c0.5_rho0.15",
+    "family": "gaussian",
+    "method": "G-CURRENT",
+    "path": "gaussian/B_g-current_c0.5_rho0.15.json"
+  },
+  {
+    "name": "B_g-next_c0.5_rho0.15",
+    "family": "gaussian",
+    "method": "G-NEXT",
+    "path": "gaussian/B_g-next_c0.5_rho0.15.json"
+  },
+  {
+    "name": "B_pinn_c0.75_rho0.15",
+    "family": "gaussian",
+    "method": "PINN",
+    "path": "gaussian/B_pinn_c0.75_rho0.15.json"
+  },
+  {
+    "name": "B_g-current_c0.75_rho0.15",
+    "family": "gaussian",
+    "method": "G-CURRENT",
+    "path": "gaussian/B_g-current_c0.75_rho0.15.json"
+  },
+  {
+    "name": "B_g-next_c0.75_rho0.15",
+    "family": "gaussian",
+    "method": "G-NEXT",
+    "path": "gaussian/B_g-next_c0.75_rho0.15.json"
+  },
+  {
+    "name": "B_pinn_c1.25_rho0.15",
+    "family": "gaussian",
+    "method": "PINN",
+    "path": "gaussian/B_pinn_c1.25_rho0.15.json"
+  },
+  {
+    "name": "B_g-current_c1.25_rho0.15",
+    "family": "gaussian",
+    "method": "G-CURRENT",
+    "path": "gaussian/B_g-current_c1.25_rho0.15.json"
+  },
+  {
+    "name": "B_g-next_c1.25_rho0.15",
+    "family": "gaussian",
+    "method": "G-NEXT",
+    "path": "gaussian/B_g-next_c1.25_rho0.15.json"
+  },
+  {
+    "name": "C_pinn_c0.5_rho0.05",
+    "family": "gaussian",
+    "method": "PINN",
+    "path": "gaussian/C_pinn_c0.5_rho0.05.json"
+  },
+  {
+    "name": "C_g-current_c0.5_rho0.05",
+    "family": "gaussian",
+    "method": "G-CURRENT",
+    "path": "gaussian/C_g-current_c0.5_rho0.05.json"
+  },
+  {
+    "name": "C_g-next_c0.5_rho0.05",
+    "family": "gaussian",
+    "method": "G-NEXT",
+    "path": "gaussian/C_g-next_c0.5_rho0.05.json"
+  },
+  {
+    "name": "C_pinn_c0.5_rho0.15",
+    "family": "gaussian",
+    "method": "PINN",
+    "path": "gaussian/C_pinn_c0.5_rho0.15.json"
+  },
+  {
+    "name": "C_g-current_c0.5_rho0.15",
+    "family": "gaussian",
+    "method": "G-CURRENT",
+    "path": "gaussian/C_g-current_c0.5_rho0.15.json"
+  },
+  {
+    "name": "C_g-next_c0.5_rho0.15",
+    "family": "gaussian",
+    "method": "G-NEXT",
+    "path": "gaussian/C_g-next_c0.5_rho0.15.json"
+  },
+  {
+    "name": "C_pinn_c0.75_rho0.15",
+    "family": "gaussian",
+    "method": "PINN",
+    "path": "gaussian/C_pinn_c0.75_rho0.15.json"
+  },
+  {
+    "name": "C_g-current_c0.75_rho0.15",
+    "family": "gaussian",
+    "method": "G-CURRENT",
+    "path": "gaussian/C_g-current_c0.75_rho0.15.json"
+  },
+  {
+    "name": "C_g-next_c0.75_rho0.15",
+    "family": "gaussian",
+    "method": "G-NEXT",
+    "path": "gaussian/C_g-next_c0.75_rho0.15.json"
+  },
+  {
+    "name": "C_pinn_c1.25_rho0.15",
+    "family": "gaussian",
+    "method": "PINN",
+    "path": "gaussian/C_pinn_c1.25_rho0.15.json"
+  },
+  {
+    "name": "C_g-current_c1.25_rho0.15",
+    "family": "gaussian",
+    "method": "G-CURRENT",
+    "path": "gaussian/C_g-current_c1.25_rho0.15.json"
+  },
+  {
+    "name": "C_g-next_c1.25_rho0.15",
+    "family": "gaussian",
+    "method": "G-NEXT",
+    "path": "gaussian/C_g-next_c1.25_rho0.15.json"
+  },
+  {
+    "name": "sine-BR-original-N512-CURRENT",
+    "family": "sine",
+    "method": "BR-CURRENT",
+    "path": "sine/sine-BR-original-N512-CURRENT.json"
+  },
+  {
+    "name": "sine-BR-original-N512-NEXT",
+    "family": "sine",
+    "method": "BR-NEXT",
+    "path": "sine/sine-BR-original-N512-NEXT.json"
+  },
+  {
+    "name": "sine-BR-seed-1-N512-CURRENT",
+    "family": "sine",
+    "method": "BR-CURRENT",
+    "path": "sine/sine-BR-seed-1-N512-CURRENT.json"
+  },
+  {
+    "name": "sine-BR-seed-1-N512-NEXT",
+    "family": "sine",
+    "method": "BR-NEXT",
+    "path": "sine/sine-BR-seed-1-N512-NEXT.json"
+  },
+  {
+    "name": "sine-BR-seed-2-N512-CURRENT",
+    "family": "sine",
+    "method": "BR-CURRENT",
+    "path": "sine/sine-BR-seed-2-N512-CURRENT.json"
+  },
+  {
+    "name": "sine-BR-seed-2-N512-NEXT",
+    "family": "sine",
+    "method": "BR-NEXT",
+    "path": "sine/sine-BR-seed-2-N512-NEXT.json"
+  },
+  {
+    "name": "sine-BR-original-N64-CURRENT",
+    "family": "sine",
+    "method": "BR-CURRENT",
+    "path": "sine/sine-BR-original-N64-CURRENT.json"
+  },
+  {
+    "name": "sine-BR-original-N64-NEXT",
+    "family": "sine",
+    "method": "BR-NEXT",
+    "path": "sine/sine-BR-original-N64-NEXT.json"
+  },
+  {
+    "name": "sine-BR-seed-1-N64-CURRENT",
+    "family": "sine",
+    "method": "BR-CURRENT",
+    "path": "sine/sine-BR-seed-1-N64-CURRENT.json"
+  },
+  {
+    "name": "sine-BR-seed-1-N64-NEXT",
+    "family": "sine",
+    "method": "BR-NEXT",
+    "path": "sine/sine-BR-seed-1-N64-NEXT.json"
+  },
+  {
+    "name": "sine-BR-seed-2-N64-CURRENT",
+    "family": "sine",
+    "method": "BR-CURRENT",
+    "path": "sine/sine-BR-seed-2-N64-CURRENT.json"
+  },
+  {
+    "name": "sine-BR-seed-2-N64-NEXT",
+    "family": "sine",
+    "method": "BR-NEXT",
+    "path": "sine/sine-BR-seed-2-N64-NEXT.json"
+  },
+  {
+    "name": "sine-BR-original-N128-CURRENT",
+    "family": "sine",
+    "method": "BR-CURRENT",
+    "path": "sine/sine-BR-original-N128-CURRENT.json"
+  },
+  {
+    "name": "sine-BR-original-N128-NEXT",
+    "family": "sine",
+    "method": "BR-NEXT",
+    "path": "sine/sine-BR-original-N128-NEXT.json"
+  },
+  {
+    "name": "sine-BR-seed-1-N128-CURRENT",
+    "family": "sine",
+    "method": "BR-CURRENT",
+    "path": "sine/sine-BR-seed-1-N128-CURRENT.json"
+  },
+  {
+    "name": "sine-BR-seed-1-N128-NEXT",
+    "family": "sine",
+    "method": "BR-NEXT",
+    "path": "sine/sine-BR-seed-1-N128-NEXT.json"
+  },
+  {
+    "name": "sine-BR-seed-2-N128-CURRENT",
+    "family": "sine",
+    "method": "BR-CURRENT",
+    "path": "sine/sine-BR-seed-2-N128-CURRENT.json"
+  },
+  {
+    "name": "sine-BR-seed-2-N128-NEXT",
+    "family": "sine",
+    "method": "BR-NEXT",
+    "path": "sine/sine-BR-seed-2-N128-NEXT.json"
+  },
+  {
+    "name": "sine-BR-original-N256-CURRENT",
+    "family": "sine",
+    "method": "BR-CURRENT",
+    "path": "sine/sine-BR-original-N256-CURRENT.json"
+  },
+  {
+    "name": "sine-BR-original-N256-NEXT",
+    "family": "sine",
+    "method": "BR-NEXT",
+    "path": "sine/sine-BR-original-N256-NEXT.json"
+  },
+  {
+    "name": "sine-BR-seed-1-N256-CURRENT",
+    "family": "sine",
+    "method": "BR-CURRENT",
+    "path": "sine/sine-BR-seed-1-N256-CURRENT.json"
+  },
+  {
+    "name": "sine-BR-seed-1-N256-NEXT",
+    "family": "sine",
+    "method": "BR-NEXT",
+    "path": "sine/sine-BR-seed-1-N256-NEXT.json"
+  },
+  {
+    "name": "sine-BR-seed-2-N256-CURRENT",
+    "family": "sine",
+    "method": "BR-CURRENT",
+    "path": "sine/sine-BR-seed-2-N256-CURRENT.json"
+  },
+  {
+    "name": "sine-BR-seed-2-N256-NEXT",
+    "family": "sine",
+    "method": "BR-NEXT",
+    "path": "sine/sine-BR-seed-2-N256-NEXT.json"
+  },
+  {
+    "name": "sine-original-04-r0-N64-G-CURRENT",
+    "family": "sine",
+    "method": "G-CURRENT",
+    "path": "sine/sine-original-04-r0-N64-G-CURRENT.json"
+  },
+  {
+    "name": "sine-original-04-r0-N64-G-NEXT",
+    "family": "sine",
+    "method": "G-NEXT",
+    "path": "sine/sine-original-04-r0-N64-G-NEXT.json"
+  },
+  {
+    "name": "sine-original-04-r0-N128-G-CURRENT",
+    "family": "sine",
+    "method": "G-CURRENT",
+    "path": "sine/sine-original-04-r0-N128-G-CURRENT.json"
+  },
+  {
+    "name": "sine-original-04-r0-N128-G-NEXT",
+    "family": "sine",
+    "method": "G-NEXT",
+    "path": "sine/sine-original-04-r0-N128-G-NEXT.json"
+  },
+  {
+    "name": "sine-original-04-r0-N256-G-CURRENT",
+    "family": "sine",
+    "method": "G-CURRENT",
+    "path": "sine/sine-original-04-r0-N256-G-CURRENT.json"
+  },
+  {
+    "name": "sine-original-04-r0-N256-G-NEXT",
+    "family": "sine",
+    "method": "G-NEXT",
+    "path": "sine/sine-original-04-r0-N256-G-NEXT.json"
+  },
+  {
+    "name": "sine-original-04-r0-N512-G-CURRENT",
+    "family": "sine",
+    "method": "G-CURRENT",
+    "path": "sine/sine-original-04-r0-N512-G-CURRENT.json"
+  },
+  {
+    "name": "sine-original-04-r0-N512-G-NEXT",
+    "family": "sine",
+    "method": "G-NEXT",
+    "path": "sine/sine-original-04-r0-N512-G-NEXT.json"
+  },
+  {
+    "name": "sine-seed-1-04-r0-N64-G-CURRENT",
+    "family": "sine",
+    "method": "G-CURRENT",
+    "path": "sine/sine-seed-1-04-r0-N64-G-CURRENT.json"
+  },
+  {
+    "name": "sine-seed-1-04-r0-N64-G-NEXT",
+    "family": "sine",
+    "method": "G-NEXT",
+    "path": "sine/sine-seed-1-04-r0-N64-G-NEXT.json"
+  },
+  {
+    "name": "sine-seed-1-04-r0-N128-G-CURRENT",
+    "family": "sine",
+    "method": "G-CURRENT",
+    "path": "sine/sine-seed-1-04-r0-N128-G-CURRENT.json"
+  },
+  {
+    "name": "sine-seed-1-04-r0-N128-G-NEXT",
+    "family": "sine",
+    "method": "G-NEXT",
+    "path": "sine/sine-seed-1-04-r0-N128-G-NEXT.json"
+  },
+  {
+    "name": "sine-seed-1-04-r0-N256-G-CURRENT",
+    "family": "sine",
+    "method": "G-CURRENT",
+    "path": "sine/sine-seed-1-04-r0-N256-G-CURRENT.json"
+  },
+  {
+    "name": "sine-seed-1-04-r0-N256-G-NEXT",
+    "family": "sine",
+    "method": "G-NEXT",
+    "path": "sine/sine-seed-1-04-r0-N256-G-NEXT.json"
+  },
+  {
+    "name": "sine-seed-1-04-r0-N512-G-CURRENT",
+    "family": "sine",
+    "method": "G-CURRENT",
+    "path": "sine/sine-seed-1-04-r0-N512-G-CURRENT.json"
+  },
+  {
+    "name": "sine-seed-1-04-r0-N512-G-NEXT",
+    "family": "sine",
+    "method": "G-NEXT",
+    "path": "sine/sine-seed-1-04-r0-N512-G-NEXT.json"
+  },
+  {
+    "name": "sine-seed-2-04-r0-N64-G-CURRENT",
+    "family": "sine",
+    "method": "G-CURRENT",
+    "path": "sine/sine-seed-2-04-r0-N64-G-CURRENT.json"
+  },
+  {
+    "name": "sine-seed-2-04-r0-N64-G-NEXT",
+    "family": "sine",
+    "method": "G-NEXT",
+    "path": "sine/sine-seed-2-04-r0-N64-G-NEXT.json"
+  },
+  {
+    "name": "sine-seed-2-04-r0-N128-G-CURRENT",
+    "family": "sine",
+    "method": "G-CURRENT",
+    "path": "sine/sine-seed-2-04-r0-N128-G-CURRENT.json"
+  },
+  {
+    "name": "sine-seed-2-04-r0-N128-G-NEXT",
+    "family": "sine",
+    "method": "G-NEXT",
+    "path": "sine/sine-seed-2-04-r0-N128-G-NEXT.json"
+  },
+  {
+    "name": "sine-seed-2-04-r0-N256-G-CURRENT",
+    "family": "sine",
+    "method": "G-CURRENT",
+    "path": "sine/sine-seed-2-04-r0-N256-G-CURRENT.json"
+  },
+  {
+    "name": "sine-seed-2-04-r0-N256-G-NEXT",
+    "family": "sine",
+    "method": "G-NEXT",
+    "path": "sine/sine-seed-2-04-r0-N256-G-NEXT.json"
+  },
+  {
+    "name": "sine-seed-2-04-r0-N512-G-CURRENT",
+    "family": "sine",
+    "method": "G-CURRENT",
+    "path": "sine/sine-seed-2-04-r0-N512-G-CURRENT.json"
+  },
+  {
+    "name": "sine-seed-2-04-r0-N512-G-NEXT",
+    "family": "sine",
+    "method": "G-NEXT",
+    "path": "sine/sine-seed-2-04-r0-N512-G-NEXT.json"
+  },
+  {
+    "name": "03-r0-R0-alpha0.5",
+    "family": "translation",
+    "method": "PINN",
+    "path": "translation/03-r0-R0-alpha0.5.json"
+  },
+  {
+    "name": "03-r0-R0-alpha5",
+    "family": "translation",
+    "method": "PINN",
+    "path": "translation/03-r0-R0-alpha5.json"
+  },
+  {
+    "name": "03-r0-R10-alpha0.5",
+    "family": "translation",
+    "method": "PINN",
+    "path": "translation/03-r0-R10-alpha0.5.json"
+  },
+  {
+    "name": "03-r0-R10-alpha5",
+    "family": "translation",
+    "method": "PINN",
+    "path": "translation/03-r0-R10-alpha5.json"
+  },
+  {
+    "name": "03-r0-R12-alpha0.5",
+    "family": "translation",
+    "method": "PINN",
+    "path": "translation/03-r0-R12-alpha0.5.json"
+  },
+  {
+    "name": "03-r0-R12-alpha5",
+    "family": "translation",
+    "method": "PINN",
+    "path": "translation/03-r0-R12-alpha5.json"
+  },
+  {
+    "name": "03-r1-R0-alpha0.5",
+    "family": "translation",
+    "method": "PINN",
+    "path": "translation/03-r1-R0-alpha0.5.json"
+  },
+  {
+    "name": "03-r1-R0-alpha5",
+    "family": "translation",
+    "method": "PINN",
+    "path": "translation/03-r1-R0-alpha5.json"
+  },
+  {
+    "name": "03-r1-R10-alpha0.5",
+    "family": "translation",
+    "method": "PINN",
+    "path": "translation/03-r1-R10-alpha0.5.json"
+  },
+  {
+    "name": "03-r1-R10-alpha5",
+    "family": "translation",
+    "method": "PINN",
+    "path": "translation/03-r1-R10-alpha5.json"
+  },
+  {
+    "name": "03-r1-R12-alpha0.5",
+    "family": "translation",
+    "method": "PINN",
+    "path": "translation/03-r1-R12-alpha0.5.json"
+  },
+  {
+    "name": "03-r1-R12-alpha5",
+    "family": "translation",
+    "method": "PINN",
+    "path": "translation/03-r1-R12-alpha5.json"
+  },
+  {
+    "name": "03-r2-R0-alpha0.5",
+    "family": "translation",
+    "method": "PINN",
+    "path": "translation/03-r2-R0-alpha0.5.json"
+  },
+  {
+    "name": "03-r2-R0-alpha5",
+    "family": "translation",
+    "method": "PINN",
+    "path": "translation/03-r2-R0-alpha5.json"
+  },
+  {
+    "name": "03-r2-R10-alpha0.5",
+    "family": "translation",
+    "method": "PINN",
+    "path": "translation/03-r2-R10-alpha0.5.json"
+  },
+  {
+    "name": "03-r2-R10-alpha5",
+    "family": "translation",
+    "method": "PINN",
+    "path": "translation/03-r2-R10-alpha5.json"
+  },
+  {
+    "name": "03-r2-R12-alpha0.5",
+    "family": "translation",
+    "method": "PINN",
+    "path": "translation/03-r2-R12-alpha0.5.json"
+  },
+  {
+    "name": "03-r2-R12-alpha5",
+    "family": "translation",
+    "method": "PINN",
+    "path": "translation/03-r2-R12-alpha5.json"
+  }
+]

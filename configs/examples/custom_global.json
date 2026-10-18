@@ -1,0 +1,50 @@
+{
+  "name": "custom-semilinear-global",
+  "problem": {
+    "factory": "examples.custom_problem:make_problem",
+    "kwargs": {
+      "d": 2,
+      "T": 1.0,
+      "reaction": 0.1
+    }
+  },
+  "model": {
+    "width": 16,
+    "hidden_layers": 2,
+    "backend": "taylor"
+  },
+  "algorithm": {
+    "kind": "global",
+    "batch": 8,
+    "N": 4,
+    "endpoint": "NEXT",
+    "schedule": [
+      {
+        "steps": 8,
+        "lr": 0.001
+      }
+    ],
+    "master_N": 4
+  },
+  "runtime": {
+    "device": "cpu",
+    "device_batch": 4,
+    "checkpoint_every": 8,
+    "log_every": 8
+  },
+  "evaluation": {
+    "validation_points": 64,
+    "test_points": 128,
+    "block": 32,
+    "validate_every": 4,
+    "layer_validation_points": 32,
+    "layer_validation_block": 16,
+    "layer_validate_every": 4
+  },
+  "seeds": {
+    "initialization": 7,
+    "train_occupation": 11,
+    "validation_occupation": 13,
+    "test_occupation": 17
+  }
+}

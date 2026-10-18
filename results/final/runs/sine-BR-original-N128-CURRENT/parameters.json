@@ -1,0 +1,87 @@
+{
+  "name": "sine-BR-original-N128-CURRENT",
+  "problem": {
+    "factory": "DSRM.problems.manufactured:sine_problem",
+    "kwargs": {
+      "seed": 4857301050324739285,
+      "d": 10,
+      "modes": 16,
+      "c": 0.5,
+      "rho": 0.15,
+      "epsilon": 0.1,
+      "temporal_scale": 0.25
+    }
+  },
+  "algorithm": {
+    "batch": 1024,
+    "N": 128,
+    "endpoint": "CURRENT",
+    "family": "G2",
+    "shared_prefix_steps": 4000,
+    "kind": "backward",
+    "schedule": [
+      {
+        "steps": 1000,
+        "lr": 0.0001
+      },
+      {
+        "steps": 1000,
+        "lr": 5e-05
+      },
+      {
+        "steps": 1000,
+        "lr": 2.5e-05
+      },
+      {
+        "steps": 1000,
+        "lr": 1.25e-05
+      }
+    ],
+    "layer_overrides": {
+      "127": [
+        {
+          "steps": 16000,
+          "lr": 0.001
+        }
+      ]
+    }
+  },
+  "model": {
+    "width": 128,
+    "hidden_layers": 3,
+    "backend": "taylor",
+    "input_shift": null
+  },
+  "sampling": {
+    "kind": "brownian"
+  },
+  "runtime": {
+    "device": "cuda",
+    "dtype": "float32",
+    "device_batch": 1024,
+    "threads": 2,
+    "checkpoint_every": 500,
+    "log_every": 100,
+    "compile": true,
+    "cuda_graph": true
+  },
+  "evaluation": {
+    "validation_points": 16384,
+    "test_points": 262144,
+    "block": 2048,
+    "validate_every": 500,
+    "layer_validation_points": 16384,
+    "layer_validate_every": 100,
+    "layer_validation_block": 16384
+  },
+  "seeds": {
+    "initialization": 3588406906732310386,
+    "train_occupation": 3943347399509088377,
+    "train_path": 5898286847143433969,
+    "validation_occupation": 4714830304931176352,
+    "validation_path": 7806653882251101427,
+    "test_occupation": 4502749882490897116,
+    "test_path": 4641483189895912861,
+    "test_terminal": 8555723162879711325
+  }
+}

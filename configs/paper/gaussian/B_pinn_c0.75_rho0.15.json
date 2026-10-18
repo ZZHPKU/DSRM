@@ -1,0 +1,64 @@
+{
+  "name": "B_pinn_c0.75_rho0.15",
+  "problem": {
+    "factory": "DSRM.problems.manufactured:gaussian_problem",
+    "kwargs": {
+      "seed": 1152300829714543300,
+      "d": 10,
+      "modes": 12,
+      "c": 0.75,
+      "rho": 0.15,
+      "epsilon": 0.1,
+      "diffusivity": 1.0
+    }
+  },
+  "model": {
+    "width": 128,
+    "hidden_layers": 3,
+    "backend": "taylor"
+  },
+  "sampling": {
+    "kind": "brownian"
+  },
+  "algorithm": {
+    "kind": "pinn",
+    "batch": 65536,
+    "schedule": [
+      {
+        "steps": 12000,
+        "lr": 0.001
+      },
+      {
+        "steps": 4000,
+        "lr": 0.0003
+      }
+    ]
+  },
+  "runtime": {
+    "device": "cuda",
+    "dtype": "float32",
+    "device_batch": 65536,
+    "threads": 2,
+    "checkpoint_every": 500,
+    "log_every": 100,
+    "compile": true
+  },
+  "evaluation": {
+    "validation_points": 16384,
+    "test_points": 262144,
+    "block": 2048,
+    "validate_every": 500,
+    "layer_validation_points": 16384,
+    "layer_validate_every": 100
+  },
+  "seeds": {
+    "initialization": 3082016278446510962,
+    "train_occupation": 3406338340997653957,
+    "train_path": 8659965528773157437,
+    "validation_occupation": 5569706503002280940,
+    "validation_path": 1577677578742200311,
+    "test_occupation": 5524010090960744798,
+    "test_path": 838872476906904506,
+    "test_terminal": 7084384746891344686
+  }
+}

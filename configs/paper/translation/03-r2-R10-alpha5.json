@@ -1,0 +1,118 @@
+{
+  "name": "03-r2-R10-alpha5",
+  "problem": {
+    "factory": "DSRM.problems.heat:translated_heat_problem",
+    "kwargs": {
+      "R": 10.0,
+      "alpha": 5.0,
+      "output_scale": 0.0001412174733007957
+    }
+  },
+  "model": {
+    "width": 128,
+    "hidden_layers": 3,
+    "backend": "taylor",
+    "input_shift": [
+      10.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "sampling": {
+    "kind": "gaussian_mixture",
+    "center": [
+      10.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "templates": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      [
+        5.0,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    ]
+  },
+  "algorithm": {
+    "kind": "pinn",
+    "batch": 65536,
+    "schedule": [
+      {
+        "steps": 4000,
+        "lr": 0.001
+      }
+    ]
+  },
+  "runtime": {
+    "device": "cuda",
+    "dtype": "float32",
+    "device_batch": 65536,
+    "threads": 2,
+    "checkpoint_every": 500,
+    "log_every": 100,
+    "compile": true
+  },
+  "evaluation": {
+    "validation_points": 16384,
+    "test_points": 262144,
+    "block": 2048,
+    "validate_every": 500,
+    "layer_validation_points": 16384,
+    "layer_validate_every": 100
+  },
+  "seeds": {
+    "initialization": 9012028468591733790,
+    "train_occupation": 4523020888698038633,
+    "train_path": 3521015184546788442,
+    "validation_occupation": 5429014290129397053,
+    "validation_path": 5608307745315020785,
+    "test_occupation": 6044514362460636129,
+    "test_path": 1390574283065611908,
+    "test_terminal": 2702170257106447255
+  }
+}

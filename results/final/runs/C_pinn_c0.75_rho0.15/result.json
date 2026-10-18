@@ -1,0 +1,85 @@
+{
+  "name": "C_pinn_c0.75_rho0.15",
+  "status": "complete",
+  "step": 16000,
+  "total_steps": 16000,
+  "elapsed_seconds": 1044.6044996711425,
+  "completed_utc": "2026-10-17T00:24:30.470041+00:00",
+  "selection": "continuous_residual",
+  "test": {
+    "split": "test",
+    "dtype": "float64",
+    "device": "cpu",
+    "continuous": {
+      "points": 262144,
+      "reference_available": true,
+      "absolute_errors": {
+        "value": 0.004541910143587706,
+        "gradient": 0.013977978843479686,
+        "hessian": 0.044982007223242367
+      },
+      "error_mse": {
+        "value": 2.0628947752424897e-05,
+        "gradient": 0.0001953838925487657,
+        "hessian": 0.0020233809738318285
+      },
+      "residual_mse": 0.0013183258884835731,
+      "residual_rms": 0.03630875773809362,
+      "residual_mse_mc_se": 1.5852314723325034e-05,
+      "truth_energy_mc": {
+        "value": 0.8838363516585093,
+        "gradient": 0.508721712314115,
+        "hessian": 0.9989728148102655
+      },
+      "relative_errors": {
+        "value": 0.004828355772972712,
+        "gradient": 0.019597387102832497,
+        "hessian": 0.04498200722324237
+      },
+      "relative_error_mc_se": {
+        "value": 2.4804026043234445e-05,
+        "gradient": 4.0293405546513284e-05,
+        "hessian": 5.515130200095932e-05
+      },
+      "truth_energy_exact": {
+        "value": 0.8848681218071281,
+        "gradient": 0.508735934618556,
+        "hessian": 0.9999999999999999,
+        "hessian_diagonal": 0.6615852620451094,
+        "time": 5.963174131449062
+      },
+      "integration_check_mc_over_exact": {
+        "value": 0.9988339842704337,
+        "gradient": 0.9999720438375329,
+        "hessian": 0.9989728148102656
+      },
+      "H_star": 0.9999999999999999,
+      "K_H": 1.2388748617540595
+    },
+    "terminal": {
+      "points": 262144,
+      "value_mse": 8.356268115223539e-15,
+      "gradient_mse": 9.77692527021086e-15
+    }
+  },
+  "selected_step": 16000,
+  "training_seconds": 1027.1411632834934,
+  "training_timing": {
+    "version": 1,
+    "start_step": 0,
+    "end_step": 16000,
+    "training_seconds": 1027.1411632834934,
+    "excluded_seconds": {
+      "setup": 1.0550278001464903,
+      "warmup": 1.3123021572828293,
+      "validation": 15.991988241206855,
+      "checkpoint": 0.08010664209723473,
+      "logging": 0.07448021043092012,
+      "final_evaluation": 12.182921973057091
+    },
+    "clock": "synchronized_wall",
+    "timed_updates": 16000,
+    "budget_updates": 16000,
+    "complete": true
+  }
+}

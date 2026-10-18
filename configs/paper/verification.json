@@ -1,0 +1,7 @@
+{
+  "runs": [
+    "gaussian/A_g-next_c0.5_rho0.15.json",
+    "sine/sine-BR-original-N64-CURRENT.json",
+    "translation/03-r0-R10-alpha5.json"
+  ]
+}

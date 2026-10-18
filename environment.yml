@@ -1,0 +1,11 @@
+name: DSRM
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy>=1.24
+  - scipy>=1.10
+  - pip
+  - pip:
+      - torch>=2.4
+      - -e .
